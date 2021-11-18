@@ -1,24 +1,62 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <nav class = "principal">
-      <ul> 
-        <li> <a href = "#home">Home</a> </li>
-        <li><a href = "#divas">Divas</a></li>
-        <li><a href = "#contato">Contato</a></li>
-      </ul>
-    </nav>
-
+    <title> Site Ada 2.0 </title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
 
-    <section id ="primeira">
-      <h1> Ada Lovelace</h1>
-      <img src="img/adal.jpg" alt="Desenho Ada com menina.">
-      <p class= "augusta"> <b>Augusta Ada King</b>, condessa de <b>Lovelace</b>, nasceu em Londres em 1815, mais conhecida como Ada Lovelace, foi a primeira pessoa a escrever um algoritmo para ser processado por uma máquina na história da computação.</p>  
-    </section>
-    
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="#section-ada">Inicio</a></li>
+          <li><a href="#other-woman">Divas</a></li>
+          <li><a href="#contato">Contato</a></li>
+          </li>
+        </ul>
+      </nav>
+    </header>
+     <main>
+      <h1 id="title">Ada Lovelace</h1>
+
+      <section class="section-ada">
+
+        <div class="div-ada">
+          <p>
+            <b>Augusta Ada King</b>, condessa de Lovelace, nasceu em Londres, no ano de 1815. Mais conhecida como <b>Ada Lovelace</b>, foi a primeira pessoa a escrever
+            um algoritmo para ser processado por uma máquina na história da
+            computação.
+          </p>
+        </div>
+       <img class="img-ada-teacher"<img src="img/adal.jpg" alt="Desenho Ada com menina.">
+      </section>
+      
+      <section id="other-woman">
+        <h3 class="title-other-women">Mulheres que fizeram história na tecnologia:</h3>
+        <ul class="ul-other-women">
+          <li class="li-other-women">
+            <a class="a-other-women"href="https://pt.wikipedia.org/wiki/Grace_Hopper" target="_blank" rel="noopener noreferrer">
+              <img class="img-other-women"src="img/grace-hopper-2.png"alt="Grace Hopper"/>
+              Grace Hopper</a>
+          </li>
+          <li class="li-other-women">
+            <a class="a-other-women" href="https://pt.wikipedia.org/wiki/Dorothy_Vaughan" target="_blank" rel="noopener noreferrer">
+
+              <img class="img-other-women" src="img/dorothy.jpg"alt="Dorothy Vaughan"/>Dorothy Vaughan</a>
+          </li>
+          <li class="li-other-women">
+            <a class="a-other-women"href="https://pt.wikipedia.org/wiki/Margaret_Hamilton_(cientista_da_computa%C3%A7%C3%A3o)"target="_blank"rel="noopener noreferrer">
+              <img class="img-other-women"src="img/margaret.jpg"alt="Margaret Hamilton"/>Margaret Hamilton</a>
+          </li>
+          <li class="li-other-women">
+            <a class="a-other-women"href="https://pt.wikipedia.org/wiki/Katherine_Johnson" target="_blank"rel="noopener noreferrer" >
+              <img class="img-other-women"src="img/katherine-johnson.jpg"alt="Katherine Johnson"/>Katherine Johnson</a>
+          </li>
+        </ul>
+      </section>
+
+  
+
     <script src="script.js"></script>
   </body>
 </html>
