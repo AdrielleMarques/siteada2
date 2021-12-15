@@ -48,7 +48,8 @@
 .navbar a:active{
   border: 10px;
   border-radius: 5px;
-  background: chocolate;
+  background: #99325B;
+  transition: click 2s;
 }
 
 
@@ -71,7 +72,7 @@ body{
 
 .titulo-centralizado{
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   padding: 30px;
   color: var(--primary-color);
 }
@@ -81,14 +82,33 @@ p{
   display: inline-block;
   vertical-align: top;
   line-height: 1.5;
-  padding: 20px;
+  padding: 0 0 0 30px;
   font-family:'Krub', sans-serif;
 }
+
+.botao_ada{
+    width:300px;
+    display:inline-block;
+    padding:15px;
+    border:10px;
+    border-radius: 20px;
+    background: #4FB5A0;
+    text-align: center;
+}
+
+.botao_ada a{
+  font-family: 'Bebas Neue', cursive;
+  text-decoration: none;
+  color:#FFFFFF;
+  font-size: 22px;
+}
+
 
 .imagem-ada{
   width: 50%;
   opacity: 1;
   transition: 400ms;
   box-shadow: 5px 10px 5px #F6DBCE;
+  border-radius: 10px;
   
 }
