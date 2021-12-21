@@ -6,8 +6,7 @@
 
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
 }
 
 .navbar {
@@ -15,20 +14,20 @@
   justify-content: space-around;
   align-items: center;
   background-color: var(--primary-color);
-  font-family: 'Bebas Neue', cursive;
-  font-size: 30px;
+
   height: 9vh;
 }
 
 .navbar-list {
   list-style: none;
   display: flex;
-  justify-content: center;
 }
 
 .navbar-list li {
   letter-spacing: 3px;
   margin: 50px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
 }
 
 .navbar a {
@@ -54,11 +53,14 @@
 
 
 body{
-  font-family: 'Montserrat', sans-serif
+  font-family: 'Montserrat', sans-serif;
+  /** esta colocando o conteudo para o lado esquerdo **/
 }
 
 #banner{
-  width: 100%;
+  /** colocando o banner como background deixando ele centralizado, fixo e sem repetir**/
+  background: url('img/banner_tech.jpg') center center no-repeat;
+  /** deixar o banner alinhado com a navar **/
 }
 
 .principal{
@@ -66,7 +68,6 @@ body{
 }
 
 .conteudo-principal{
-  width: 640px;
   margin: 0 auto;
 }
 
